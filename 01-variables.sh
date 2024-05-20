@@ -1,0 +1,6 @@
+#!/bin/bash
+
+PERSON1=SURESH
+PERSON2=RAMESH
+
+echo "$PERSON1 : HI $PERSON2 Very Good Day"
