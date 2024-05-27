@@ -1,10 +1,14 @@
 #! bin/bash
 
-Today = $1
+NUMBER =$1
 
-if [$Today = 'Sunday']
-then
-    echo "Go To Park"
+if [$NUMBER -ge 10]
+
+    echo "$NUMBER Is Greater Then 10"
+
 else
-    echo "Go To School"
+
+    echo "$NUMBER Is Lesser Than 10"
+
 fi
+
