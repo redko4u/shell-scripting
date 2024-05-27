@@ -1,11 +1,10 @@
 #! bin/bash
 
-today =$1
+Today = $1
 
-if ($today == "sunday") {
-    print enjoy the holiday
-}
+if [$Today = Sunday]
+then
+echo "Go To Park"
 else
-{
-    print go to school
-}
+echo "Go To School"
+fi
