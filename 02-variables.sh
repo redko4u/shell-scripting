@@ -1,9 +1,9 @@
 #! bin/bash
 
-NUMBER =$1
+NUMBER=$1
 
-if [$NUMBER -ge 10]
-
+if [$NUMBER -gt 10]
+then
     echo "$NUMBER Is Greater Then 10"
 
 else
