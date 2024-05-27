@@ -2,9 +2,9 @@
 
 Today = $1
 
-if [$Today = Sunday]
+if [$Today = 'Sunday']
 then
-echo "Go To Park"
+    echo "Go To Park"
 else
-echo "Go To School"
+    echo "Go To School"
 fi
