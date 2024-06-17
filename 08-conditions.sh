@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=$(id-u)
+USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
 then 
@@ -16,4 +16,14 @@ then
     exit 1
 else 
     echo "Instalallation Of SQL SUCCESS"
+fi
+
+yum install postfix -y
+
+if [ $? -ne 0 ]
+then 
+    echo " Installation Of Post FIX Error"
+    exit 1
+else
+    echo " Installation Of Post FIX Success"
 fi
